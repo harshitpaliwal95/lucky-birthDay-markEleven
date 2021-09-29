@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- awsom font -->
+    <script
+      src="https://kit.fontawesome.com/e057b28e7b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Lucky Number</title>
+  </head>
+  <body>
+    <div>
+      <h1>Is your Birthday lucky?</h1>
+      <div style="text-align: center">
+        <h3>Date Of Birth:</h3>
+        <input
+          style="
+            border: 0.2px solid black;
+            padding: 0.6rem 1.5rem;
+            font-weight: bold;
+            border-radius: 10px;
+          "
+          type="date"
+          id="birthday"
+          name="birthday"
+        />
+        <h3>Lucky Number:</h3>
+        <input
+          style="
+            border: 0.2px solid black;
+            padding: 0.6rem 3rem;
+            font-weight: bold;
+            border-radius: 10px;
+          "
+          type="number"
+          id="luckyNumber"
+          name="quantity"
+          min="1"
+          max="30"
+        />
+      </div>
+      <div>
+        <h3
+          id="message"
+          style="
+            padding: 0.7rem 3rem;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            margin-top: 80px;
+          "
+        >
+          🥳guess the number🥳
+        </h3>
+      </div>
+      <div>
+        <footer>
+          <h4>Made By Harshit Paliwal</h4>
+          <div id="links">
+            <a href="https://twitter.com/harshit__hp" target="_blank">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+
+            <a href="https://github.com/harshitpaliwal95" target="_blank">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/harshit-paliwal-8302951b0/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
